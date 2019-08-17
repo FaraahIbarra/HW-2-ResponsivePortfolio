@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    background-color: #D3D3D3;
+}
+
+header.page-header {
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    font-size: 20px;
+    color: #d3d3d3;
+}
+
+h3 {
+    font-size: 20px;
+    color: #D3D3D3;
+    padding-top: 50px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #D3D3D3;
+    padding-top: 60px;
+}
+.myName {
+    background-color: #fff;
+    color: #4aaaa5;
+}
+
+.image-wrapper {
+    position:relative;
+    height:150px;
+    width:150px;
+}
+
+.image-wrapper img {
+    max-width:100%;
+    max-height: 100%;      
+}
+.boxed {
+    background-color: #fff;
+    color: #4aaaa5;
+    width: 550px;
+    height: 550px; 
+    margin-left: 30px;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.pageTitle {
+    width: 400px;
+    float: left;
+    margin-left: 30px;
+    height: 80px;
+    background-color: #4AAAA5;
+    color: #fff; 
+}
+.menu {
+    background-color: #fff;
+    color:#c0c0c0;
+    font-size: 1.25rem;
+    height: 80px;
+    text-align: right;
+    float: right;
+    padding-right: 15px;
+}
+a.nav {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a.nav:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+
+a.nav:active {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a.nav:visited {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 1em 0; 
+    padding: 0;
+ }
+
+ span {
+    vertical-align: middle;
+    display:inline-block;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #777;;
+    text-align: center;
+    font-size: .8rem;
+    height:75px;
+    color:#CCC;
+    border-top: 8px solid #4AAAA5;
+}

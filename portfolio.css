@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    background-color: #D3D3D3;
+}
+
+header.page-header {
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+.myName {
+    background-color: #fff;
+    color: #4aaaa5;
+}
+
+.image-wrapper {
+    position:relative;
+    height:150px;
+    width:150px;
+}
+
+.image-wrapper img {
+    max-width:100%;
+    max-height: 100%;
+}
+
+.image-describe {
+    position: absolute;
+    width:100%;
+    background: #4AAAA5;
+    bottom:0;
+    height:30px;
+    color:#fff;
+}
+
+.boxed {
+    background-color: #fff;
+    color: #4aaaa5;
+    width: 400px;
+    margin-left: 40px;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pageTitle {
+    width: 400px;
+    float: left;
+    margin-left: 30px;
+    height: 80px;
+    background-color: #4AAAA5;
+    color: #fff; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #777;;
+    text-align: center;
+    font-size: .8rem;
+    height:75px;
+    color:#CCC;
+    border-top: 8px solid #4AAAA5;
+    /* Why won't the text center align?*/
+}
+
+.menu {
+    background-color: #fff;
+    color:#c0c0c0;
+    font-size: 1.25rem;
+    height: 80px;
+    text-align: right;
+    float: right;
+    padding-right: 15px;
+}
+
+
+span {
+    vertical-align: middle;
+    display:inline-block;
+}
+
+a.nav {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a.nav:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+
+a.nav:active {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a.nav:visited {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+hr {
+   display: block;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid #e0e0e0;
+   margin: 1em 0; 
+   padding: 0;
+}
+
+img.tile {
+    padding:10px;
+}
+
